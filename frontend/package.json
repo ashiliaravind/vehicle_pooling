@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "prebuild": "npx fix-imports-case",
+    "prebuild": "node fixImportsCase.js",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
